@@ -91,11 +91,15 @@ chmod u+x "${HOME}/git/hub/rpi-curious/yt-player/yt-player.sh"
 
 2. Pull changes to source code
 
+3. Update submodules utilized by this repository
+
 
 ```Bash
 cd "${HOME}/git/hub/rpi-curious/yt-player"
 
 git pull
+
+git submodule update --init --recursive --merge
 ```
 
 ___
