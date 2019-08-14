@@ -79,7 +79,7 @@ git clone --recurse-submodules git@github.com:rpi-curious/yt-player.git
 mkdir ~/bin
 ln -s "${HOME}/git/hub/rpi-curious/yt-player/yt-player.sh" "${HOME}/bin/"
 
-chown ${USER}:${GROPUS} ~/bin/yt-player.sh
+chown ${USER}:${GROUPS} ~/bin/yt-player.sh
 chmod u+x "${HOME}/git/hub/rpi-curious/yt-player/yt-player.sh"
 ```
 
